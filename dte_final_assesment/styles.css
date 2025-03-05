@@ -3,23 +3,34 @@
 }
 
 .rosminilogo {
-    width: 200px;
-    length: 200px
+    width: 150px;
+    length: 150px
 }
+
 .buttontxt {
     color: black;
+    text-decoration: none;
 }
+
 .hometxt {
     color: black;
+    text-decoration: none;
 }
+
 .charity {
     font-size: 60px;
-    padding-right: 200px;
+    padding-right: 50px;
 }
 
 .navhome{
-
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 50px;
 }
-.navbuttons {
 
+.navbuttons {
+ margin-right: 50px;
 }
