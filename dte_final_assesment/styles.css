@@ -69,3 +69,7 @@
     font-weight: bold;  /* Optional: make the text bold */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: add shadow for better visibility */
 }
+
+.bodyparagraph {
+    text-align: center;
+}
