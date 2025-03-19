@@ -165,11 +165,26 @@ body {
     border-radius: 5px;
 }
 
-
-
 .sport-name {
-    font-size: 20px;
+    font-size: px;
     font-weight: bold;
 }
 
 
+.paragraphssports {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.secondparagraphsports {
+    font-size: 30px;
+    color: rgb(0, 84, 162);
+}
+
+.quoteimg img {
+   display: flex;
+   
+
+}
