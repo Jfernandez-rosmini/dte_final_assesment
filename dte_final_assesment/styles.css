@@ -73,6 +73,8 @@
 .bodyparagraph {
     text-align: center;
     padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px
 }
 
 body {
@@ -183,8 +185,100 @@ body {
     color: rgb(0, 84, 162);
 }
 
-.quoteimg img {
-   display: flex;
-   
-
+.middleinformation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.left-column, .right-column {
+    flex: 1;
+    min-width: 300px; /* Ensures it doesn't shrink too much */
+}
+
+.quoteimg {
+    width: 100%; /* Ensures image scales properly */
+    max-width: 400px; /* Adjust size */
+    margin: auto; /* Centers it */
+    display: block;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; /* Centers the image */    
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+
+.quoteimg {
+    width: 1200px; /* Adjust size as needed */
+    height: 157px;
+}
+
+footer {
+    background-color: rgb(0, 84, 162);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    }
+    
+.logo {
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+.footer-section ul li {
+    margin: 5px 0;
+    }
+    
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    }
+    
+.social {
+    text-align: right;
+    }
+    
+.social-icon {
+    width: 30px;
+    margin: 5px;
+    }
+    
+.app-download {
+    width: 150px;
+    margin-top: 10px;
+    }
+    
+.schoolsite-logo {
+    width: 100px;
+    margin-top: 10px;
+    }
+
