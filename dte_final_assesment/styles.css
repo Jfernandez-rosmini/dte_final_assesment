@@ -220,7 +220,7 @@ body {
 
 .quoteimg {
     width: 1200px; /* Adjust size as needed */
-    height: 130px;
+    height: 145px;
 }
 
 footer {
@@ -231,6 +231,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
     }
     
 .footer-section {
@@ -239,7 +240,7 @@ footer {
     padding: 10px;
     }
     
-.logo {
+.flogo {
     width: 150px;
     display: block;
     margin-bottom: 10px;
@@ -281,4 +282,39 @@ footer {
     width: 100px;
     margin-top: 10px;
     }
+
+.fa-facebook {
+    color: whitesmoke;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+.fa-instagram {
+    color: whitesmoke;
+    font-size:xx-large;
+    padding: 10px;
+}
+.fa-linkedin{
+    color: whitesmoke;
+    font-size:xx-large;
+    padding: 10px;
+}
+.fa-youtube {
+    color: whitesmoke;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+.footer-sectioncontact {
+    padding-left: 50px;
+}
+
+.footer-sectionlinks {
+    padding-left: 50px;
+}
+
+.flinks {
+    color: whitesmoke;
+    text-decoration: none;
+}
 
