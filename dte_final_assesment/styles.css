@@ -232,6 +232,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    height: 250px;
     }
     
 .footer-section {
@@ -241,7 +242,8 @@ footer {
     }
     
 .flogo {
-    width: 150px;
+    width: 180px;
+    height: 150px;
     display: block;
     margin-bottom: 10px;
     }
@@ -306,11 +308,15 @@ footer {
 }
 
 .footer-sectioncontact {
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 .footer-sectionlinks {
-    padding-left: 50px;
+    padding-left: 200px;
+}
+
+.footer-section2links {
+    padding-left: 200px;
 }
 
 .flinks {
@@ -318,3 +324,19 @@ footer {
     text-decoration: none;
 }
 
+.f2links {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
+
+  hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+  }
