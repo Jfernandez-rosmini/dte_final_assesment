@@ -52,8 +52,7 @@
  margin-right: 50px;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 .Izacksports {
     width: 100%;
     length: 100%;
@@ -234,7 +233,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    height: 250px;
+    height: 200px;
     }
     
 .footer-section {
@@ -331,26 +330,8 @@ footer {
     text-decoration: none;
 }
 
-.line {
-    width: 100%;
-    height: 2px;
-    background-color: white;
-  }
 
-  hr {
-    border: none;
-    height: 2px;
-    background-color: white;
-  }
-=======
-=======
->>>>>>> Stashed changes
 .carousel-inner {
     width: 100%;
-    height: 250px;
     align-items: center;
 }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
