@@ -4,7 +4,7 @@
 
 .rosminilogo {
     width: 135px;
-    length: 135px;
+
 }
 
 .buttontxt {
@@ -55,7 +55,7 @@
 
 .Izacksports {
     width: 100%;
-    length: 100%;
+    height: 100%;
 }
 .sportsimgwithtxt {
     position: relative;
@@ -70,6 +70,8 @@
     font-weight: bold;  /* Optional: make the text bold */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Optional: add shadow for better visibility */
 }
+
+
 
 .bodyparagraph {
     text-align: center;
@@ -157,6 +159,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.sport-name {
+    font-weight: 600;
+    font-size: x-large;
+}
+
 .sport-image img {
     height: 225px;
     width: 350px;
@@ -168,8 +175,7 @@ body {
     border-radius: 5px;
 }
 
-.sport-name {
-    font-size: px;
+.overlay-text{
     font-weight: bold;
 }
 
@@ -336,3 +342,66 @@ footer {
     align-items: center;
 }
 
+
+.staffbody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: rgb(0, 84, 162);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.department {
+    font-size: 24px;
+    color: red;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.staff-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.staff-card {
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    border-radius: 1px;
+    overflow: hidden;
+    height: 266.66px;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.staff-name {
+   background: linear-gradient(to bottom, rgba(0, 84, 168, 0.863), rgb(0, 84, 162));
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    margin: 0;
+}
